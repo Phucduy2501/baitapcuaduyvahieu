@@ -1,0 +1,56 @@
+.highlighting__tp-left h2 {
+  font-size: 39px;
+  margin: 0;
+}
+
+.highlighting__tp-right {
+  width: 473px;
+}
+.highlighting__tp-right p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.highlighting__tp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 135px;
+  margin-bottom: 30px;
+}
+
+.grid__item h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.grid__item p {
+  font-size: 14px;
+  margin: 0;
+  width: 230px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.grid__item img {
+  width: 24px;
+  height: 24px;
+}
+
+.grid__item {
+  width: 260px;
+  height: 160px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.highlighting__grid {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: repeat(4, 260px);
+  padding: 0 135px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}

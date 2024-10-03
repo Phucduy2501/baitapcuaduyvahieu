@@ -104,6 +104,10 @@ header nav ul li .header__item {
 }
 
 .header__pages:hover + .header__item {
+<<<<<<< HEAD
   opacity: 2g;
+=======
+  opacity: 2;
+>>>>>>> main
   display: block;
 }

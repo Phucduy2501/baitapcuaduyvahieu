@@ -1,0 +1,41 @@
+.world__left h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.world__left .btn {
+  width: 218px;
+  height: 52px;
+}
+
+.world__left {
+  width: 614px;
+}
+
+.world__right p {
+  font-size: 16px;
+  width: 407px;
+  line-height: 1.8;
+  margin: 0;
+  color: white;
+}
+
+#world {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  background-image: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%);
+  margin-bottom: 50px;
+  margin: 50px auto;
+  width: 1200px;
+  height: 320px;
+  padding: 51px 85px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}

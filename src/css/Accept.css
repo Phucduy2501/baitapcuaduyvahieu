@@ -1,0 +1,60 @@
+.accept__left {
+  width: 651px;
+  height: 448px;
+}
+
+.accept__right {
+  width: 510px;
+  padding-top: 70px;
+}
+
+.accept__right h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.accept__right p {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 20px;
+  color: #888;
+}
+
+.accept__right ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.accept__right ul {
+  padding: 0;
+  margin-top: 35px;
+}
+
+.accept__right ul li p {
+  margin: 0;
+  color: black;
+}
+
+.fa-check:before {
+  background-color: #ff8a55;
+  width: 19px;
+  height: 18px;
+  padding: 2px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  color: white;
+  border-radius: 50%;
+}
+
+#Accept {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-bottom: 100px;
+}
