@@ -1,0 +1,37 @@
+.carousel__left h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.carousel__left p {
+  font-size: 16px;
+  width: 573px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.carousel__left .btn {
+  width: 220px;
+  margin-top: 30px;
+}
+
+.carousel__right {
+  width: 573px;
+}
+
+.carousel__right img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel__bg {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#carousel {
+  padding: 60px 0;
+}

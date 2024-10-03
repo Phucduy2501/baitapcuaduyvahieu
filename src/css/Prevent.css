@@ -1,0 +1,48 @@
+.Prevent__left ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  width: 370px;
+  padding: 0 20px;
+}
+.Prevent__left ul {
+  padding: 0;
+}
+
+.Prevent__left ul li .Prevent__p {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.Prevent__left ul li:hover {
+  background-color: rgb(254 96 25 / 0.4);
+}
+
+.Prevent__left {
+  width: 440px;
+  padding: 0 20px;
+}
+
+.Prevent__left h2 {
+  font-size: 36px;
+  font-weight: 550;
+}
+
+.Prevent__left p {
+  color: #888;
+}
+
+.Prevent__right-data {
+  width: 651px;
+  height: 448px;
+}
+
+#Prevent {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}

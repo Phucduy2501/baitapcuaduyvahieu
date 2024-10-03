@@ -1,0 +1,41 @@
+.Accountability__left h2 {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.Accountability__left p {
+  font-size: 16px;
+  color: #888;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.Accountability__left {
+  width: 412px;
+}
+
+.Accountability__left .btn {
+  width: 172px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.Accountability__right {
+  background-image: url(../../public/img/collaboration.png);
+}
+
+.Accountability__right iframe {
+  width: 560px;
+  height: 315px;
+  border-radius: 30px;
+}
+
+#Accountability {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+  margin-bottom: 50px;
+}
