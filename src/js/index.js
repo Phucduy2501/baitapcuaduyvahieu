@@ -29,3 +29,17 @@ daoNguoc.onclick = function () {
 
   dataImg.src = "./public/img/sells-by-country.png";
 };
+
+let pagesEle = document.querySelector(".header__pages");
+
+let headerItemEle = document.querySelector(".header__item");
+
+headerItemEle.style.display = "none";
+
+pagesEle.onmouseenter = function () {
+  headerItemEle.style.display = "block";
+};
+
+headerItemEle.onmouseleave = function () {
+  headerItemEle.style.display = "none";
+};

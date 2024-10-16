@@ -1,8 +1,8 @@
 footer {
+  box-sizing: border-box; /* Thêm dòng này */
   width: 100%;
   background-color: #f0f0f0;
-  box-sizing: border-box;
-  padding: 50px 0;
+  padding: 50px 150px;
   margin-top: 120px;
 }
 
